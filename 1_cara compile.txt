@@ -1,0 +1,7 @@
+# cara membuat compiler
+python -m py_compile namafile.py
+
+# cara menjalankan file hasil compiler
+- cd __pycache__
+- python ketik nama file & klik tab untuk auto complete
+
