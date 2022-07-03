@@ -6,7 +6,7 @@ print("=====DATA KABUPATEN======")
 if response.status_code == 200:
     data = response.json()
     for d in data:
-        id = d[0]
+        id = d['id']
         prov_id = d['province_id']
         name = d['name']
         print(f"""
