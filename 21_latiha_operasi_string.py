@@ -1,0 +1,6 @@
+userinput = input('masukkan kata : ')
+to_upper = userinput.upper()
+to_lower = userinput.lower()
+print('ini adalah case normal :', userinput)
+print('ini adalah case to upper :', to_upper)
+print('ini adalah case to lower :', to_lower)
