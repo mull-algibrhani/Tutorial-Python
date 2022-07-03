@@ -87,6 +87,11 @@ print("'", rata_tengah, "'")
 # menghilangkan justyfi dengan strip()
 print(rata_tengah.strip('='))
 
+# capitalize
+print(kata.capitalize())
+# title
+print(kata.title())
+
 # =====FUNGSI ATAU METHOD LAINNYA===== #
 # isalpha() --> untuk mengecek apakah semuanya adalah huruf ?
 # isalnum() --> untuk mengecek apakah semuanya adalah huruf dan angka?
